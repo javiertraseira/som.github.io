@@ -1,0 +1,19 @@
+
+title: ISO
+lang: es
+
+remote_theme: rundocs/jekyll-rtd-theme  
+
+edit: true
+addons_branch: true
+
+addons:
+  - github
+  - plugins
+  - analytics
+
+copyright:
+  revision: true
+
+readme_index:
+  with_frontmatter: true
