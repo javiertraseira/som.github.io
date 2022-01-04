@@ -107,7 +107,7 @@ Los hipervisores se pueden clasificar según su forma de funcionar:
 -   **Tipo 1** (nativos): Se ejecutan directamente sobre el hardware sin necesidad de SO.
 -   **Tipo 2** (anfitriones): Usan un SO anfitrión para ejecutarse sobre este.
 
-![](media/tipo_hipervisores.jpg)
+![](media\tipo_hipervisores.jpg)
 
 ### Ventajas y desventajas de la virtualización
 
@@ -170,7 +170,7 @@ En cuanto al tema de seguridad, algunos consideran que los contenedores son meno
 
 Existen diversas soluciones de software de virtualización; tanto hipervisores como de contenedores: software libre, propietario, orientado a servidores, a SO concretos, etc.
 
-![media/software_virtualizacion.png)
+![media\software_virtualizacion.png)
 
 ## Infraestructura y hardware
 
@@ -250,6 +250,6 @@ Terminología propia asociada al **Cloud Computing**:
 -   Nube Hibrida
 -   Big Data
 
-![](media/cloud_computing.jpg)
+![](media\cloud_computing.jpg)
 
 
