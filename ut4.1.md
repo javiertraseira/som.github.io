@@ -254,7 +254,7 @@ Principales **funciones** del sistema de archivos:
 
 ### Journaling
 
->   💡 El **journaling **es un mecanismo que permite mantener la integridad de los datos de un disco ante un evento imprevisto que los pudiera corromper o perder.
+>   💡 El **journaling** es un mecanismo que permite mantener la integridad de los datos de un disco ante un evento imprevisto que los pudiera corromper o perder.
 
 El journaling entra en acción únicamente cuando se escribe en un disco y actúa como si fuera un tipo de reloj de personal para todas las escrituras.
 Esto soluciona el problema de una posible corrupción en el disco ante un posible inconveniente: por ejemplo, cuando se está escribiendo y la computadora crashea o se corta la luz. Sin el journal, el sistema operativo no tendría forma de saber si el archivo fue escrito de forma completa y correcta. Si se corta la corriente en plena operación el archivo quedará en su versión original sin corrupción o pérdida de datos.
