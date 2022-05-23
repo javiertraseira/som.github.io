@@ -340,7 +340,7 @@ Comparativa de las capacidades máximas de los sistemas de archivos existentes:
 
 [^2]:  El sistema **exFAT** nació posteriormente para cubrir dichas limitaciones para memorias flash y tarjetas SD siendo aún utilizado en la actualidad.
 
-[^3]:  El sistema **NTFS** (New Type File System) *es el usado en sistemas Windows (ficheros de hasta 16TB) y permite operaciones de permisos y seguridad avanzadas.
+[^3]:  El sistema **NTFS** (New Type File System) es el usado en sistemas Windows (ficheros de hasta 16TB) y permite operaciones de permisos y seguridad avanzadas.
 
 [^4]:  En SO Linux y la mayoría de móviles Android, **ext4** es el sistema de archivos generalmente usado, siendo de los más rápidos y eficientes.
 
@@ -356,7 +356,7 @@ En los sistemas de archivos jerárquicos se declara la ubicación de cualquier f
 
 
 
->   📌 Se llama **unidad activa **a la letra que indica la unidad lógica (partición) que corresponde a la unidad física sobre la que el sistema operativo tiene el control o está situado en ese momento.
+>   📌 Se llama **unidad activa** a la letra que indica la unidad lógica (partición) que corresponde a la unidad física sobre la que el sistema operativo tiene el control o está situado en ese momento.
 
 Para poder acceder a un fichero o directorio concreto hay que saber en qué unidad lógica o partición en la que estamos situados; es decir, necesitamos conocer la unidad activa.
 
@@ -374,7 +374,7 @@ archivos. Para explicar las rutas, partimos que estamos en siempre en determinad
     
 2.  **Rutas relativas.** Para utilizar estas trayectorias es importante tener en cuenta tanto el directorio activo como la unidad activa.
     
-3.  **Rutas semiabsolutas o completas**. Son una combinación de las dos anteriores ya que contienen siempre la unidad lógica a la que referencian, y además contienen referencias a los directorios **. **y **.. **dentro de ellas.
+3.  **Rutas semiabsolutas o completas**. Son una combinación de las dos anteriores ya que contienen siempre la unidad lógica a la que referencian, y además contienen referencias a los directorios **.** y **..** dentro de ellas.
 
 ### Rutas en sistemas Windows
 
@@ -415,13 +415,13 @@ En Linux el manejo de trayectorias es similar al de Windows.
 
 La importante diferencia es que en Linux <u>no existe la referencia de la letra de unidad</u> como ocurre en Windows.
 
->   📌 Una **ruta **en sistemas Linux es una lista de nombres de directorio separados por el símbolo **/**, seguida por un nombre de directorio o por el nombre de un archivo.
+>   📌 Una **ruta** en sistemas Linux es una lista de nombres de directorio separados por el símbolo **/**, seguida por un nombre de directorio o por el nombre de un archivo.
 
 `/home/javier/desktop`
 
 `/home/javier/documentos/archivo.txt`
 
--   Una **ruta relativa **hará referencia a una ubicación que es relativa al
+-   Una **ruta relativa** hará referencia a una ubicación que es relativa al
     directorio activo actual.
 
 `../documentos/file.html`
@@ -434,7 +434,7 @@ El manejo de rutas en entornos gráficos es más sencilla que en modo comando ya
 
 Las rutas web, conocidas también como URL son diferentes a las que podamos usar localmente dentro del sistema de archivos de nuestro ordenador, aunque guardan ciertas similitudes y conviene conocerlas.
 
-Una **URL **típica puede ser del tipo:
+Una **URL** típica puede ser del tipo:
 
 http://es.wikipedia.org:80/wiki/Special:Search?search=tren&go=Go
 
