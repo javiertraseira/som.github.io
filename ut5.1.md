@@ -2,7 +2,7 @@
 
 ## Virtualización
 
-La **virtualización** consiste en la creación a través de software específico de una versión virtual de un recurso tecnológico, como puede ser una plataforma de hardware, un sistema operativo, un dispositivo de almacenamiento y otros recursos de red.
+> 💡 La **virtualización** consiste en la creación a través de software específico de una versión virtual de un recurso tecnológico, como puede ser una plataforma de hardware, un sistema operativo, un dispositivo de almacenamiento y otros recursos de red.
 
 La virtualización es una tecnología relativamente reciente, ya que hasta poco solo estaba disponible para grandes empresas con alto poder económico, pero hoy en día existe multitud de soluciones para la virtualización al alcance de las pequeñas y medianas empresas.
 
