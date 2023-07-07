@@ -26,7 +26,7 @@ Se puede configurar el **aspecto** así como ciertas propiedades de la consola d
 
 ![](media/d55cbf74b3e2b5822d2c7b59805a82e4.jpeg)
 
-### Navegación por directorios
+## Navegación por directorios
 
 > 💡 Para navegar o moverse de directorio en la consola de comandos se utiliza el comando CD (CHDIR) y el comando CD..
 
@@ -38,7 +38,7 @@ El comando **CD..** navega al directorio padre (el anterior).
 
 El comando **CD\\** navega al directorio raíz.  
 
-### Creación de directorios
+## Creación de directorios
 
 > 💡 En el entorno de consola de comandos de Windows (CMD), para la creación de directorios se utiliza el comando **MD** (MKDIR). 
 
@@ -51,7 +51,7 @@ La sintaxis del comando **MD** es la siguiente:
 
         MD nombre_directorio
 
-### Consulta de directorios
+## Consulta de directorios
 
 > 💡 En el entorno de consola de comandos de Windows, para la consulta del contenido de un directorio se utiliza el comando **DIR**. 
 
@@ -63,7 +63,7 @@ Su sintaxis:
 
 ![](media/aeca73df674ca404570bdc789c968af6.png)
 
-### Estructura de directorios
+## Estructura de directorios
 
 > 💡 En el entorno de consola de comandos de Windows (CMD), utilizaremos el comando **TREE** para visualizar el árbol de directorios completo.
 
@@ -76,7 +76,7 @@ Su sintaxis:
 
 ![](media/efe723da994f4344f7236b006d2ce2d3.png)
 
-### Borrado archivos/directorios
+## Borrado archivos/directorios
 
 > 💡 El comando **RD** (RMDIR) se utiliza para borrar directorios ya vacíos.
 
@@ -86,7 +86,7 @@ Al eliminar una carpeta o fichero desde la interfaz gráfica se mandará por def
 
 ![](media/c59e27312f27d90d8a83326e769d560b.jpeg)
 
-### Mover/copiar archivos/directorios
+## Mover/copiar archivos/directorios
 
 > 💡 Para mover ficheros en la consola se utiliza el comando **MOVE**.
 
@@ -118,7 +118,7 @@ La sintaxis de dichos comandos es la siguiente:
 
 ![](media/b039f89b119acd8135deb64e728bd74c.png)
 
-### Renombrar archivos/directorios
+## Renombrar archivos/directorios
 
 > 💡 Para renombrar ficheros en la consola se utiliza el comando **REN**.
 
@@ -128,7 +128,7 @@ Para realizar esta operación en entorno gráfico, simplemente seleccionaremos l
 
 A la hora de renombrar archivos hay que tener presente que si tenemos **accesos directos** que apuntan a un archivo y lo renombramos o movemos, el sistema realizará un cambio de ruta de forma automática, incluso si lo cambiamos de unidad.
 
-### Comandos útiles consola CMD
+## Comandos útiles consola CMD
 
 > 💡 Para mostrar un texto en consola se usa el comando ECHO
 
@@ -191,7 +191,7 @@ Junto con el parámetro /interactive a las 20:00 nos aparecerá un mensaje que n
 
 El comando AT está en desuso, pero nos puede seguir siendo útil para cosas sencillas.
 
-### Comodines consola CMD
+## Comodines consola CMD
 
 En la consola existen **comodines** universales que permiten especificar grupos de:
 
@@ -233,7 +233,7 @@ Sintaxis de ejemplo:
 
         C:> XCOPY *.* D:\BACKUP /S
 
-### Atributos del sistema
+## Atributos del sistema
 
 > 💡 En el entorno de consola de comandos de Windows (CMD), para visualizar los atributos de archivos se utiliza el comando **ATTRIB**. 
 
@@ -261,7 +261,7 @@ Sintaxis del comando:
 
         ATTRIB /D (Procesa solo carpetas)
 
-### Redireccionamiento
+## Redireccionamiento
 
 Antes de continuar con las tareas de **administración** de Windows, vamos a ver herramientas útiles y conceptos de la consola como el **redireccionamiento**.
 
@@ -278,7 +278,7 @@ Para poder redireccionar la entrada y la salida en la consola CMD utilizaremos l
         >> Redirección de la salida y adición a un fichero.
 
 
-### Redireccionamiento de salida
+## Redireccionamiento de salida
 
 Por ejemplo para redirigir la **salida** del comando DATE podríamos crear un fichero de texto que se llamara FECHA.TXT y cuyo contenido es una única línea usando **\>**
 
@@ -296,7 +296,7 @@ El redireccionamiento es útil para guardar la información devuelta por los com
         C:> DIR >> REGISTRO.LOG
 
 
-### Redireccionamiento de entrada
+## Redireccionamiento de entrada
 
 El otro tipo de direccionamiento es el de **entrada**. Por ejemplo, para redirigir la entrada del comando DATE podríamos crear un fichero de texto que se llamara FECHA.TXT y cuyo contenido es una única línea:
 
@@ -309,7 +309,7 @@ A continuación ejecutamos el comando DATE redirigiendo su entrada de la siguien
 
 El comando leería el contenido del fichero de texto y modificará la hora del sistema sin pedirla por teclado.
 
-### Búsqueda de textos
+## Búsqueda de textos
 
 > 💡 Para buscar una cadena de caracteres dentro de un fichero se utiliza el comando **FIND**.
 
@@ -367,7 +367,7 @@ Una mejora de este comando es *FINDSTR*.
 | Redireccionamiento                             | \> , \>\>, \<    |
 
 
-### Filtro MORE
+## Filtro MORE
 
 > 💡 Los filtros o tuberías son utilizados también a menudo después de un comando usando para ello el símbolo de tubería |
 
@@ -377,7 +377,7 @@ Es decir, cuando el dispositivo de salida es el monitor, el filtro MORE pagina u
 
 ![](media/8ba756a402b5c7d0b9942e472acc9493.png)
 
-### Filtro SORT
+## Filtro SORT
 
 > 💡 El filtro **SORT** recibe, igual que MORE, un conjunto de datos organizados en filas y los ordena.
 
@@ -391,7 +391,7 @@ SORT tiene un parámetro para ordenar columnas respecto a un fichero de texto, i
 
 ![](media/a5fadaa8d287dba5b0757867386cd220.png)
 
-### Ficheros procesamiento por lotes
+## Ficheros procesamiento por lotes
 
 
 > 💡 Un fichero de **procesamiento por lotes** es un archivo de texto plano guardado con la extensión **.bat**, que contienen un conjunto de **comandos** de consola separados en distintas líneas.
