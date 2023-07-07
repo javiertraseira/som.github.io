@@ -84,6 +84,8 @@ Existen muchas extensiones, específicas para determinados programas:
 | Discos duros virtuales | VDI, VDMK                |
 | Imágenes de SO         | ISO                      |
 
+
+
 ### Atributos
 
 Los **atributos** de los archivos y carpetas son los mismos para todos los usuarios o grupos. Cuando se establece un determinado atributo a un archivo, como por ejemplo sólo lectura afectará a cualquier usuarios que intente modificar dicho fichero.
