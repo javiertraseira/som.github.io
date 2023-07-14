@@ -12,3 +12,8 @@ search_enabled: true
 hljs_style: github-gis
 
 theme: jekyll-theme-minimal
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
