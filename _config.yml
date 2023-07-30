@@ -1,6 +1,6 @@
 title: SOM
 lang: es
-remote_theme: rundocs/jekyll-rtd-theme
+remote_theme: janessatran/laloyd
 
 plugins:
   - jemoji
