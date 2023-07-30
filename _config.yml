@@ -6,3 +6,6 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme
