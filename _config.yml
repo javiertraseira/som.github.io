@@ -9,6 +9,8 @@ translate:
  searching: buscando
  not_found: no_encontrado
  search_results_found: resultados_encontrados
+ this: este
+ is_under_the_terms_of: esta_bajo_los_terminos_de
 
 plugins:
   - jemoji
