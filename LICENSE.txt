@@ -1,4 +1,4 @@
-MIT License
+CC-BY-NC-SA
 
 Copyright (c) 2020 RunDocs & contributors
 
