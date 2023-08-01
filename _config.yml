@@ -2,6 +2,10 @@ title: SOM
 lang: es
 remote_theme: rundocs/jekyll-rtd-theme
 
+translate:
+ search: buscar
+ search_docs: buscar
+
 plugins:
   - jemoji
   - jekyll-avatar
