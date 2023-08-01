@@ -3,9 +3,12 @@ lang: es
 remote_theme: rundocs/jekyll-rtd-theme
 
 translate:
- note: nota
+ note: info
  search: buscar
- search_docs: buscar
+ search_docs: buscar..
+ searching: buscando
+ not_found: no_encontrado
+ search_results_found: resultados_encontrados
 
 plugins:
   - jemoji
