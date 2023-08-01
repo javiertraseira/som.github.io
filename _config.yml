@@ -3,6 +3,7 @@ lang: es
 remote_theme: rundocs/jekyll-rtd-theme
 
 translate:
+ note: nota
  search: buscar
  search_docs: buscar
 
