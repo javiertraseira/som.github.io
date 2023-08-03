@@ -7,8 +7,8 @@ translate:
  search: buscar
  search_docs: buscar..
  searching: buscando
- not_found: no_encontrado
- search_results_found: resultados_encontrados
+ not_found: No encontrado
+ search_results_found: Resultados Encontrados
  this: este
  is_under_the_terms_of: esta_bajo_los_terminos_de
 
