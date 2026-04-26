@@ -7,14 +7,15 @@
 Muestra información del sistema *(versión del SO, Kernel, procesador)*
 
 ```bash
-# Procesador instalado en el equipouname -p
-Intel(R) Core(TM) Duo CPU T2450  @ 2.00GHz
+# Procesador instalado en el equipo 
+uname -p
+ > Intel(R) Core(TM) Duo CPU T2450  @ 2.00GHz
 # versión del kernel
 uname -r
-2.6.22.9-laptop-1mdv
+ > 2.6.22.9-laptop-1mdv
 # Toda la información de uname a través de la opción -a
 uname -a
-Linux segolap 2.6.22.9-laptop-1mdv #1 SMP Thu Sep 27 04:17:10 CEST 2007 i686 Intel(R) Core(TM) Duo CPU T2450  @ 2.00GHz GNU/Linux
+ > Linux segolap 2.6.22.9-laptop-1mdv #1 SMP Thu Sep 27 04:17:10 CEST 2007 i686 Intel(R) Core(TM) Duo CPU T2450  @ 2.00GHz GNU/Linux
 ```
 
 **free**
